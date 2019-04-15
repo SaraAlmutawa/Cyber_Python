@@ -1,0 +1,4 @@
+name = abcd1234
+print(name)
+new_name = "".join(reversed(name))
+print(new_name)
