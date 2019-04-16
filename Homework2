@@ -1,0 +1,20 @@
+code to check if the entered number is a prime or no:
+
+try:
+    num = int (input ("Enter the number :\n"))
+    
+
+   
+    if num>1:
+        for count in range(2,num):
+            if num%count == 0 :
+                print(" it's not a prime!")
+                break
+            elif num%count > 1:
+                print("Prime")
+                break
+        else :
+            print("Prime")
+    
+except:
+    print("Invaild data")
